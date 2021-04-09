@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu{
+    color:white;
+    background-color: black;
+    border-color: red;
+    border-style:solid;
+    border-width: 10 px;
+    width: 200px;
+    padding: 20px;
+}

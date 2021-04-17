@@ -1,3 +1,96 @@
+.container {
+    height: 95vh;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color:gray;
+}
+
+
+.red {
+    width: 260px;
+    height: 260px;
+    background-color: pink;
+    color: rgb(68, 13, 65);
+    transition: width 2s, height 2s, background-color  2s, border-radius 2s;
+    display: flex;
+    
+    /*transition: transform 2s;*/
+
+}
+
+.objeto{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    animation-name:exemplo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#loading{
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes exemplo{
+    0% {
+        background-color: yellow;
+        left: 40px;
+        top: 0px;
+    }
+    20% {
+        background-color:blue;
+        left: 160px;
+        top: 0px;}
+    40% {
+        background-color: green;
+        left: 160px;
+        top: 200px;
+    }
+    80% {
+        background-color: orange;;
+        left: 40px;
+        top: 200px;
+    }
+    to {
+        background-color: yellow;
+        left: 40px;
+        top:0px
+
+    }}
+
+/*
+@keyframes exemplo{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+    }
+}
+/*
+.red:hover{
+    width: 500px;
+    height: 500px;
+    background-color: darkslateblue;
+    color:white;
+    transform: scale(2));
+    
+}*/
+
+/*
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .botao{
     width: 25vh;
     height: 10vh;
@@ -18,49 +111,14 @@
     color:rgba(105, 1, 65, 0.644);
     background-color: white;
     cursor: pointer ; /*Muda o cursor do mouse para mostrar
-    que ali é um link clicável*/
+    que ali é um link clicável
 }
 
-.botao:focus { /*Pesquisar para que serve*/
+.botao:focus { /*Pesquisar para que serve
     outline: none;
     border: none;
   }
 
-.red {
-    width: 300px;
-    height: 300px;
-    background-color: pink;
-    color: rgb(68, 13, 65);
-    transition: width 2s, height 2s, background-color  2s, border-radius 2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 2s;
-
-}
-.red:hover{
-    width: 500px;
-    height: 500px;
-    background-color: darkslateblue;
-    color:white;
-    transform: scale(2));
-    
-}
-.container{
-    height: 95vh;
-    background-color: cornsilk;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    color:gray;
-}
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 #t1 {transition: width 2s ;transition-timing-function: ease-in-out}
 /* Transições
@@ -80,5 +138,6 @@
       content: "exemplo";
     }
 */
+
 
 

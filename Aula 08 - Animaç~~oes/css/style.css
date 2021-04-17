@@ -1,0 +1,59 @@
+.botao{
+    width: 25vh;
+    height: 10vh;
+    background-color: rgba(105, 1, 65, 0.644);
+    color: white ;
+    border-radius: 15px;
+    border: 0px
+
+}
+.botao:hover{
+    color: darkgray;
+    cursor: pointer;
+    transition: color 2s; 
+}
+.botao:active{
+    color:rgba(105, 1, 65, 0.644);
+    background-color: white;
+    cursor: pointer ; /*Muda o cursor do mouse para mostrar
+    que ali é um link clicável*/
+}
+
+.button:focus { /*Pesquisar para que serve*/
+    outline: none;
+    border: none;
+  }
+
+.red {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    color: rgb(68, 13, 65);
+    transition: width 2s, height 2s, background-color  2s, border-radius 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.red:hover{
+    width: 500px;
+    height: 500px;
+    background-color: darkslateblue;
+    border-radius: 25%;
+    
+}
+.container{
+    height: 95vh;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

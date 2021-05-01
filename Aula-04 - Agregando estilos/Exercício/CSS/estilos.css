@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');/*Importa a fonte Monteserrat do site do google fontes*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-bottom: 9px;
+    font-size: 14px;
+
+    /*background-color: pink;*/
+
+}
+.cabecalho{
+    background-color: #80d8ff;
+    text-decoration: underline;;
+}
+
+#titulo{
+    font-style: italic;
+    text-align: center;
+}

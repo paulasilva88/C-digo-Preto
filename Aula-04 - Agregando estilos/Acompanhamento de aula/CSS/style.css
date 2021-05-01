@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:wght@300&family=Playfair+Display&display=swap');
+
+
+body {
+    background-color: pink;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+.title{
+    font-family: "Dela Gothic One";
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    background-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto;
+
+    border-width: 0px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 1%;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.card{
+    border-width: 0px;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.card-title{
+    font-family: "Playfar Display" ;
+    font-size: 30px;
+}
+
+.card-content{
+    font-family: "Lato";
+    font-size: 25px;
+}
+#html{
+    background-color: #DF3A01;
+
+}
+
+#css{
+    background-color:#045FB4;
+
+}
+    
+#js {
+    background-color: #DBA901;
+}
+
+
+
+
+/*Ordem de prioridade:
+id > tag > classe
+Se existir mais de uma caracterização igual, prevalece a última*/
+/*
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: darkgray;
+    color: white;
+}
+
+
+    
+h1{/*Caracterização de tag*
+    color: white;
+    background-color: thistle;
+    text-align: center;
+}
+
+.card {/*Caracterização de classe*
+    color: white;
+}
+#welcome{/*Caracterização de Id*
+    font-style: italic;
+}*/

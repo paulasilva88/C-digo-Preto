@@ -1,0 +1,67 @@
+
+body{
+    background-color:thistle;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin: 20px 10px 0px 10px;
+    background-color: whitesmoke;
+    width: 200px;
+    
+   box-shadow: 4px 4px 4px -1.5px #989898;
+}
+.imagem{
+    width: 100%;
+}
+
+.espacobotao{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px 0px 10px;
+}
+.botao{
+    text-align: center;
+    background-color: gray;
+    color:lightgray;
+    height: 5%;
+    padding: 1px;
+    width: 85%;
+
+}
+
+.titsec{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-device-width : 420px) {
+    /* celulares */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: inherit;
+
+}}
+
+
+@media screen and (min-device-width : 421px) and (max-device-width : 800px) {
+    /* tablets */
+    .content{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        overflow-wrap: inherit;
+}}

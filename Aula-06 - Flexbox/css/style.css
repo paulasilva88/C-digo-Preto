@@ -1,0 +1,20 @@
+#item-1{ background-color: khaki;}
+#item-2{ background-color:beige;}
+#item-3{ background-color:floralwhite;}
+#item-4{ background-color: gainsboro;}
+
+.item {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 15%;
+  }
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color:lemonchiffon;
+  }

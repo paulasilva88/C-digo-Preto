@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formulário de cadastro</title>
+    <style>
+       
+        
+    </style>
+
+</head>
+<body>
+    <div class="content">
+        <h1>Formulário de cadastro</h1>
+    <form  action = "salvar-usuario" method = "POST">
+        <label for="primeiro-nome"> Primeiro nome </label><br>
+            <input type="text" id="primeiro-nome" name="primeiro-nome" class="format" value="" placeholder="João" required/> <br>
+            <!--required: colocar item como obrigatório-->
+            <br>
+        <label for="segundo-nome"> Segundo nome</label><br>
+            <input type="text" id="segundo-nome" name="segundo-nome" class="format" value="" placeholder="Santos" required/>  <br>
+            <br>
+        <label for="email">Email</label><br>
+            <input type="email" name="email" class="format" placeholder="user@email.com"required>
+        <br>
+        <label for="senha">Senha</label> <br>
+            <input type="password" name="senha" class= "format" required><br>
+            <br>
+        <label for="confirmar-senha">Confirme a senha</label> <br>
+        <input type="password" name="confirmar-senha"  class="format" required> <br>
+        <br>
+
+        <label for="pais">País<br>
+        <select name="pais" class="format" required>
+            <option >Selecione um país</option>
+            <optgroup label="América do Sul">
+                <option value="br">Brasil</option>
+                <option value="ar">Argentina</option>
+                <option value="ch">Chile</option>
+            <optgroup label="América do Norte">
+                <option value="mx">México</option>
+                <option value="eu">EUA</option>
+                <option value="ca">Canadá</option>
+            </optgroup>
+        </select> <br> <br>
+
+    </form>
+    </div>
+    
+    
+    
+</body>
+</html>

@@ -27,14 +27,34 @@ border-style: none;
     justify-content:space-between;
 
 }
+.botao{
+padding: 10px;
+border-radius: 8px;
+width: 100%;
+border-style: none;
+transition :transform 2s;
+}
+
+.botao:hover{
+    color: white;
+    cursor: pointer;
+    transition: color 0.25s; 
+    cursor: pointer ;
+}
 
 #botaoreset {
     background-color: rgb(235, 74, 74);
     margin: 5px;
-    color: white;
 }
-
+#botaoreset:active{
+    color:rgb(134, 19, 19);
+    background-color: white;
+}
 #botaoenviar{
     background-color: rgb(18, 214, 18);
     margin: 5px;
+}
+#botaoenviar:active{
+    background-color: white;
+    color: darkgreen;
 }

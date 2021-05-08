@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 body{
+    font-family: 'Itim';
 }
 .content{
 display: flex;
@@ -6,19 +9,32 @@ justify-items: center;
 align-items: center;
 flex-direction: column;
 background-color: antiquewhite;
-height: 90vh;
+height: 97vh;
 }
-input[type=text] {
-padding: 10px;
-border-width: 2px;
+/* input[type=text] { 
 border-radius: 8px;
-border-color: rgb(231, 231, 231);
 width: 100%;
-}
+}*/
+
 .format{
 padding: 10px;
-border-width: 2px;
 border-radius: 8px;
-border-color: rgb(231, 231, 231);
 width: 100%;
+border-style: none;
+}
+.botoes{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#botaoreset {
+    background-color: rgb(235, 74, 74);
+    margin: 5px;
+    color: white;
+}
+
+#botaoenviar{
+    background-color: rgb(18, 214, 18);
+    margin: 5px;
 }
